@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.adobe.cairngorm.navigation.AllNavigationParsleyTests"/>
+    <classEntry path="com.adobe.cairngorm.navigation.landmark.noninterceptor.EnterTest"/>
+    <classEntry path="com.adobe.cairngorm.navigation.landmark.interceptor.EnterInterceptorTest"/>
+    <classEntry path="com.adobe.cairngorm.navigation.state.SelectedIndexDecorator"/>
+    <classEntry path="com.adobe.cairngorm.navigation.state.SelectedIndexProcessor"/>
+    <classEntry path="com.adobe.cairngorm.navigation.state.SelectedNameDecorator"/>
+    <classEntry path="com.adobe.cairngorm.navigation.state.SelectedNameProcessor"/>
+  </includeClasses>
+  <includeResources>
+    <resourceEntry destPath="manifest.xml" sourcePath="manifest.xml"/>
+    <resourceEntry destPath="design.xml" sourcePath="design.xml"/>
+  </includeResources>
+  <namespaceManifests>
+    <namespaceManifestEntry manifest="manifest.xml" namespace="http://ns.adobe.com/cairngorm"/>
+  </namespaceManifests>
+</flexLibProperties>
