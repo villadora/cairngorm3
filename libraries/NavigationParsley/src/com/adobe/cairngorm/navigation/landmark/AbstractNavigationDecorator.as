@@ -24,9 +24,9 @@ package com.adobe.cairngorm.navigation.landmark
 {
 
 
+
     import org.spicefactory.parsley.core.builder.ObjectDefinitionBuilder;
     import org.spicefactory.parsley.core.builder.ObjectDefinitionDecorator;
-    import org.spicefactory.parsley.core.scope.ScopeManager;
 
     public class AbstractNavigationDecorator implements ObjectDefinitionDecorator
     {
@@ -47,7 +47,7 @@ package com.adobe.cairngorm.navigation.landmark
             this.time=time;
         }
 
-        protected function decorateForEnter(builder:org.spicefactory.parsley.core.builder.ObjectDefinitionBuilder, time:String):void
+        protected function decorateForEnter(builder:ObjectDefinitionBuilder, time:String):void
         {
             this.time=time;
             performDecorate(builder);
