@@ -10,6 +10,13 @@ In cairngorm3, there are libraries which depended on spicelib-parsley framework,
 But in Feb 6th, 2012, Parsley 3.0.0 got its final release, there are many changes in parsley3.
 This project is going to migrate those libraries from parsley2.4 to parsley3 to utilize the power of new features in parsley3.
 
+project environment:
+
+* Flex 4.6 SDK
+* Parsley 3.0.0 Final Release
+* Cairngorm3.0.21
+
+
 
 changes in parsley-spicelib 3, which can be found in their document&source code.
 ----------------------------------
