@@ -33,9 +33,5 @@ changes in parsley-spicelib 3, which can be found in their document&source code.
 ```
 
 2. `interface ObjectDefinitionBuilder`: the ObjectDefinitionBuilder  builder API has chagned
-```
-   
-
-```
 3. 
 4.
